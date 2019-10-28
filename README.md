@@ -18,6 +18,8 @@ then simply type:
 
 python mnist_cnn_A_1.py 
 
+it will automaticaly download the mnist dataset from (http://yann.lecun.com/exdb/mnist/) and start the training
+
 ### Performance
 
 CNN: 99.9% (test accuracy) in 50 epoches
