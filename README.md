@@ -28,7 +28,8 @@ Test set: Avg. loss:  3.9577173387715444e-05 	[ Accuracy:  9990 / 10000  (  99.9
 The code provides a predefined model.
 The  model is CNN (convolutional neural networks).
 The traing and testing dataset labels are modified according "1" if the image represents the number 3, and "0" otherwise. 
-Model returns "1" if the image represents the number 3, and "0" otherwise.
+
+![dataset_after_change_1_if_image_represents_number_3_and_0_otherwise.png](https://github.com/awethaileslassie/awet_mnist_pytorch/blob/master/dataset_after_change_"1"_if_image_represents_number_3_and_"0"_otherwise.png)
 The network is trained and evaluated on MNIST dataset with classification accuracy. 
 
 #### Part 1: data preparation
