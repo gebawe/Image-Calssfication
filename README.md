@@ -23,6 +23,8 @@ The code provides a predefined model.
 The  model is CNN (convolutional neural networks).
 The traing and testing dataset labels are modified according "1" if the image represents the number 3, and "0" otherwise. 
 Model returns "1" if the image represents the number 3, and "0" otherwise.
+![dataset_label 1 if it was 3 and 0 otherwise.png](https://github.com/awethaileslassie/awet_mnist_pytorch/blob/master/dataset_label 1 if it was 3 and 0 otherwise.png)
+
 The network is trained and evaluated on MNIST dataset with classification accuracy. 
 
 #### Part 1: data preparation
