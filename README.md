@@ -14,7 +14,8 @@ Matplotlib
 
 ### Performance
 
-CNN: 99.58% (test accuracy) in 10 epoches
+CNN: 99.9% (test accuracy) in 50 epoches
+Test set: Avg. loss:  3.9577173387715444e-05 	[ Accuracy:  9990 / 10000  (  99.9 %)
 
 ### Description
 
@@ -49,6 +50,16 @@ We use SGD optimizer with learning_rate = 0.05, momentum = 0.9 for parameter upd
 
 The CNN model is evaluated with test dataset
 
-# Model Loss during Training for 50 epoches (50\*6000) 
+#### Accuracy calculation
+
+Sigmoid function outputs a value in range [0,1] which corresponds to the probability of the given sample belonging to positive class (class 3). Everything below 0.5 is labeled with zero (i.e. class other than 3) and everything above 0.5 is labeled with one. So to find the predicted class, I have used:
+
+output = network(data)
+pred = output.data > 0.5
+
+# Model Loss during Training for 50 epoches 
+![Loss_50_epoch.png](https://github.com/awethaileslassie/awet_mnist_pytorch/blob/master/Loss_50_epoch.png)
+
+# Model Accuracy during Training for 50 epoches
 ![Accuracy_50_epoch.png](https://github.com/awethaileslassie/awet_mnist_pytorch/blob/master/Accuracy_50_epoch.png)
 
