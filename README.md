@@ -50,5 +50,5 @@ We use SGD optimizer with learning_rate = 0.05, momentum = 0.9 for parameter upd
 The CNN model is evaluated with test dataset
 
 # Model Loss during Training for 50 epoches (50\*6000) 
-![accuracy.png](https://upload-images.jianshu.io/upload_images/1231993-d76f92bd4f431100.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![Accuracy_50_epoch.png](https://github.com/awethaileslassie/awet_mnist_pytorch/blob/master/Accuracy_50_epoch.png)
 
